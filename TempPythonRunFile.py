@@ -43,9 +43,18 @@ class bcolors:
 # %%
 # TODO: input QC dir
 inputDir=input("Input Dir Path to Be Checked")
+if inputDir.startswith("\""):
+  # print('Yes')
+  inputDir=(inputDir[1:-1])
+# .lstrip(r"'").rstrip(r"'")
 inputDir=pl.Path(inputDir)
 # print(inputDir)
+
 inputDir
+
+
+# %%
+
 
 
 # %%
