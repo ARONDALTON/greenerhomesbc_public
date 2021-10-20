@@ -146,7 +146,42 @@ tree
 
 
 # %%
-
+# TODO: check for foundation is BCCB-4
+#  <Basement isExposedSurface="true" exposedSurfacePerimeter="39.9297" id="1">
+#                 <Label>Foundation - 1</Label>
+#                 <Configuration type="BBIN" subtype="1" overlap="0">BBIN_1</Configuration>
+#                 <OpeningUpstairs code="1" value="1.5598">
+#                     <English>Standard door - open</English>
+#                     <French>Porte standard - ouverte</French>
+#                 </OpeningUpstairs>
+#                 <RoomType code="7">
+#                     <English>Other</English>
+#                     <French>Autre</French>
+#                 </RoomType>
+#                 <Floor>
+#                     <Construction isBelowFrostline="true" hasIntegralFooting="false" heatedFloor="false">
+#                         <FloorsAbove idref="Code 17" rValue="0.8064" nominalInsulation="0">4231001760</FloorsAbove>
+#                     </Construction>
+#                     <Measurements isRectangular="false" area="96.0617" perimeter="39.9297" />
+#                 </Floor>
+#                 <Wall hasPonyWall="true">
+#                     <Construction corners="4">
+#                         <InteriorAddedInsulation idref="Code 18" nominalInsulation="2.11">
+#                             <Description>210201</Description>
+#                             <Composite>
+#                                 <Section rank="1" percentage="100" rsi="0" nominalRsi="2.11" />
+#                             </Composite>
+#                         </InteriorAddedInsulation>
+#                         <Lintels idref="Code 10">008</Lintels>
+#                         <PonyWallType idref="Code 19" nominalInsulation="3.1954">
+#                             <Description>1211501510</Description>
+#                             <Composite>
+#                                 <Section rank="1" percentage="100" rsi="2.9826" nominalRsi="3.1954" />
+#                             </Composite>
+#                         </PonyWallType>
+#                     </Construction>
+#                     <Measurements height="2.1336" depth="0.6096" ponyWallHeight="1.4478" />
+#                 </Wall>
 
 
 # %%
